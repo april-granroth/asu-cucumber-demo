@@ -8,7 +8,6 @@ Feature: Industry Participants - ASU Women in Computer Science Group
     Given we require a minimum of 2 industry partners attending meetings
     When we have 2 industry partners attend the meetings
     Then we can continue having meetings and are somewhat ok with it
-    And we ate lunch happily
 
   @less
   Scenario: Not enough partners attend
