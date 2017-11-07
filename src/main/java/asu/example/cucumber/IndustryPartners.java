@@ -26,7 +26,7 @@ public class IndustryPartners {
 
     public String getAction() {
         if (this.actualNumberPartners == minimumPartners){
-            return "continue having meetings and are somewhat ok with it";
+            return "continue having meetings";
         }else if (this.actualNumberPartners < minimumPartners){
             return "disband";
         }else{

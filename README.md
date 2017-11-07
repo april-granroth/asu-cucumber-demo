@@ -19,6 +19,7 @@ Tests run from the same directory that contains the pom.xml file.
 ## Running a specific tag ##
 
     mvn test -Dtest=RunCucumber -Dcucumber.options='--tags @ASU-outline'
+    mvn test -Dtest=RunCucumber -Dcucumber.options='--tags @NAU-outline'
     mvn test -Dtest=RunCucumber -Dcucumber.options='--tags @minimum'
 
 
